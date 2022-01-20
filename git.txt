@@ -22,4 +22,18 @@ vim Es el editor de código de git desde la consola, ahí escribes un comentario
 .gitignore Es un archivo reservado de git que tenemos que crear si queremos decirle a git los archivos que no vamos a utilizar y así decida ignorarlos.
 Escribe dentro de el archivo .gitignore los nombres de los archivos que desees ignorar.
 Nota: Las carpetas se escriben solas y los archivos con su terminación. 
-saxxsa
+
+git branch -a //Enumerate remote branches
+git branch [branch name] //Create branch
+git checkout [branch name] //Move to branch
+git checkout -b [Nombre de la Rama] //Create and move to the branch
+git add . //Agregar changes
+git commit -m "Adding an article to week 02 of articles of the week" //Confim my change and add comments
+git branch -D [branch name] //Delete branch
+git remote add [name-remote-repository] [url repo] //Config a remote repository
+git push [name-remote-repository] [branch}]]]]
+git merge //Mix the changes
+git merge [branch]//Mix the changes of branch
+
+
+******Important master sometimes is main
